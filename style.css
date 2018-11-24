@@ -1,0 +1,169 @@
+* {
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+
+
+#header-logo {
+  display: block;
+  font-family: Raider Crusader, Adam;
+  color: #707070;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+
+#header-logo:hover {
+  color: #383838;
+  transition-duration: 1.5s;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.nav-links {
+  padding-top: 10px;
+  text-align: center;
+  font-family: Adam;
+  color: #000;
+  font-size: 20px;
+}
+
+.nav-links a:hover {
+  font-weight: bold;
+}
+
+.welcome {
+  width: 100%;
+  text-align: center;
+  margin-top: 12%;
+}
+
+.welcome h1 {
+  font-size: 80px;
+  text-align: center;
+  padding: 5px;
+  font-family: adam;
+  font-weight: bold;
+}
+
+.welcome p {
+  font-size: 32px;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .welcome {
+        height: auto;
+    }
+}
+
+#home-about-info {
+  padding-top: 5px;
+  font-family: 'Cabin', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  font-size: 5vw;
+}
+
+#about-info-home {
+  font-family: 'Cabin', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.buttons {
+    background-color: #2dc7ff; /* Light Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.buttons:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.blog-links {
+  font-weight: bold;
+}
+
+.blog-links:hover {
+  text-decoration: underline;
+}
+
+.view-more {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15%;
+  width: 150px;
+  margin-left: 45%;
+  text-align: center;
+  vertical-align: middle;
+  height: 50px;
+}
+
+.view-more:hover {
+  background-color: #6a9ced;
+  color: #fff;
+  transition-duration: .3s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#Blogs-heading-home {
+  text-align: center;
+  font-size: 6vw;
+}
+
+#Blogs-description-home {
+  text-align: center;
+  font-size: 3vw;
+}
+
+.blog-box-1 {
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  height: 25%;
+  width: 25%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.blog-box-1 img {
+  border-radius: 25px;
+  width: 100%;
+  height: 25%;
+}
+
+.blog-box-1 img:hover {
+  border: 2px solid black;
+}
+
+#blog-box-title-1 {
+  text-align: center;
+  font-size: 2vw;
+}
