@@ -685,8 +685,13 @@ html, body {
   width: auto;
 }
 
+.CONTACT img {
+  transition: 1s ease;
+  padding: 0px;
+}
+
 .CONTACT img:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  transition-duration: .5s;
+  transition: 1s ease;
   border-radius: 65px;
 }
