@@ -9,15 +9,6 @@
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="img/st.png" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129661893-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-129661893-2');
-</script>
   </head>
   <header>
     <a id="header-logo" href="index.html">SHADOW TECK</a>
@@ -29,30 +20,74 @@
   </nav>
   <body>
     <div class="wrapper">
+      <input class="search-bar" type="text" id="filterInput" placeholder="Search blogs...">
       <div class="blogs">
+
+        <ul id="names" class="collection with-header">
+          <li id="grid"  class="collection-item">
+        <div class="blog1">
+          <a href="blog6.html">
+            <img style="Learn JavaScript in 2019 width:300px; height:300px;" src="img/blog-6.jpg" alt="blog-image">
+            <div class="blog-below">
+            <h2 id="blog-title" class="has-text-black-bis" style="text-align: center;">Front-end Development Trends for 2019</h2>
+            </a>
+            <p class="" style="text-align: center;">1/4/19</p>
+            <p class="" style="text-align: center; padding-bottom: 50px;">JavaScript is one language that is on the rise...</p>
+          </div>
+        </div>
+        </li>
+          <li id="grid"  class="collection-item">
+        <div class="blog1">
+          <a href="blog5.html">
+            <img style="Front-end Web Dev Trends 2019 width:300px; height:300px;" src="img/blog-5.jpg" alt="blog-image">
+            <div class="blog-below">
+            <h2 id="blog-title" class="has-text-black-bis" style="text-align: center;">Front-end Development Trends for 2019</h2>
+            </a>
+            <p class="" style="text-align: center;">12/22/18</p>
+            <p class="" style="text-align: center; padding-bottom: 50px;">Front-end Web Devlopment Trends to look out for in 2019!</p>
+          </div>
+        </div>
+        </li>
+          <li id="grid"  class="collection-item">
+        <div class="blog1">
+          <a href="blog4.html">
+            <img style="best programming language width:300px; height:300px;" src="img/blog-4.jpg" alt="blog-image">
+            <div class="blog-below">
+            <h2 id="blog-title" class="has-text-black-bis" style="text-align: center;">What Is The Best Programming Language for YOU in 2019</h2>
+            </a>
+            <p class="" style="text-align: center;">12/9/18</p>
+            <p class="" style="text-align: center; padding-bottom: 50px;">Short answer: none just pick one. Long answer…</p>
+          </div>
+        </div>
+        </li>
+          <li id="grid"  class="collection-item">
         <div class="blog1">
           <a href="blog1.html">
-            <img style="width:300px; height:300px;" src="img/ide.jpg" alt="blog-image">
+            <img style="Best ide for web development width:300px; height:300px;" src="img/ide.jpg" alt="blog-image">
             <div class="blog-below">
             <h2 id="blog-title" class="has-text-black-bis" style="text-align: center;">Best IDE for Web Development 2019</h2>
             </a>
-            <p class="has-text-black-bis" style="text-align: center;">11/20/18</p>
-            <p class="has-text-black-bis" style="text-align: center;">So I’ve been researching lately about code editors...</p>
-            </div>
+            <p class="" style="text-align: center;">11/20/18</p>
+            <p class="" style="text-align: center;">So I’ve been researching lately about code editors...</p>
+          </div>
         </div>
+        </li>
+        <li id="grid" class="collection-item">
         <div class="blog2">
           <a href="blog2.html">
-            <img style="width:300px; height:300px;" src="img/blog2-img.jpg" alt="blog-image">
-            <div class="blog-below">
-              <h2 id="blog-title" class="has-text-black-bis" style="text-align: center;">Full Stack Development Guidelines</h2>
+            <img style="Full Stack Development Guidelines width:300px; height:300px;" src="img/blog2-img.jpg" alt="blog-image">
+             <div class="blog-below">
+             <h2 id="blog-title" class="has-text-black-bis" style="text-align: center;">Full Stack Development Guidelines</h2>
               </a>
               <p style="text-align: center;">11/18/18</p>
               <p style="text-align: center;">What Languages are required for learning to become a Full-Stack Developer?</p>
             </div>
         </div>
+        </li>
+        <li id="grid"  class="collection-item">
         <div class="blog3">
           <a href="blog3.html">
-            <img style="width:300px; height:300px;" src="img/blog-3-img.jpg" alt="blog-image">
+            <img style="Starting in Web Development width:300px; height:300px;" src="img/blog-3-img.jpg" alt="blog-image">
             <div class="blog-below">
               <h2 id="blog-title" class="has-text-black-bis" style="text-align: center;">Starting in Web Development</h2>
               </a>
@@ -60,9 +95,8 @@
               <p style="text-align: center;">Pathway to becoming a Web Developer starts with one simple...</p>
             </div>
         </div>
-    </div>
-    <div class="white-space3">
-      <!-- There's nothing here? -->
+        </li>
+        </ul>
     </div>
     <a style="color: inherit;" id="archives" href="archives.html">Archives</a>
     <div class="white-space2">
@@ -81,6 +115,7 @@
         <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/531789102&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
     </div>
   </div>
+</body>
   <footer>
     <div class="footer">
       <div class="social-media">
@@ -108,3 +143,32 @@
     </div>
   </footer>
   </html>
+  <script>
+      //Get input element
+      let filterInput = document.getElementById('filterInput');
+      // Add event listener
+      filterInput.addEventListener('keyup', filterNames);
+
+      function filterNames() {
+        // Get value of input
+        let filterVaule = document.getElementById('filterInput').value.toUpperCase();
+        console.log(filterVaule);
+
+        // Get names ul
+        let ul = document.getElementById('names');
+        // Get li's from ul
+        let li = ul.querySelectorAll('li.collection-item');
+
+        //Loop through collection-item li's
+        for (let i = 0; i < li.length; i++) {
+          let a = li[i].getElementsByTagName('a')[0];
+          //If matched
+          if (a.innerHTML.toUpperCase().indexOf(filterVaule) > -1) {
+            li[i].style.display = '';
+          } else {
+            li[i].style.display = 'none';
+          }
+        }
+
+      }
+    </script>
